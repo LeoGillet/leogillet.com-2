@@ -1,0 +1,17 @@
+:root {
+  --ti-cursor-color: #f18a41;
+}
+
+body {
+  background: #140b03;
+}
+
+body * {
+  color: #f18a41;
+}
+
+h1:hover,
+h4:hover {
+  color: #cfd2d0;
+  background: #4a2a0d;
+}

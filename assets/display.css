@@ -1,0 +1,55 @@
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1.1fr 1.9fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "name"
+    "secret"
+    "meta";
+    overflow: hidden;
+    place-items: center;
+    height: 100vh;
+}
+
+.name {
+    place-items: top;
+    grid-area: name;
+    text-align: center;
+}
+
+.secret {
+  grid-area: secret;
+}
+
+.meta {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "github"
+    "email"
+    "linkedin"
+    "aoty";
+  grid-area: meta;
+  place-items: center;
+}
+
+.github {
+  grid-area: github;
+}
+
+.linkedin {
+  grid-area: linkedin;
+}
+
+.aoty {
+  grid-area: aoty;
+}
+
+.email {
+    grid-area: email;
+}
