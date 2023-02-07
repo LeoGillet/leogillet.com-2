@@ -8,7 +8,7 @@ h1 {
 
 h2 {
   font-family: monospace;
-  font-size: clamp(.75rem, 3vw, 3rem);
+  font-size: clamp(1.5rem, 3vw, 3rem);
   border-radius: clamp(0.2rem, 0.75vw, .5rem);
 }
 

@@ -11,18 +11,17 @@
                 integrity="sha512-WJXVjqeINVpi5XXJ2jn0BSCfp0y80IKrYh731gLRnkAS9TKc5KNt/OfLtu+fCueqdWniouJ1ubM+VI/hbo7POQ=="
                 crossorigin="anonymous"
                 referrerpolicy="no-referrer"></script>
-        <link rel="stylesheet" href="/assets/background.css" />
         <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
         <script src="https://kit.fontawesome.com/1505bbb07c.js"
                 crossorigin="anonymous"></script>
         <script type="text/javascript">
-            var colorSchemes = ['orange'];
-            var link = document.createElement( "link" );
+            var colorSchemes = ['green', 'orange', 'white', 'blue'];
+            var link = document.createElement("link");
             link.href = "/assets/themes/" + colorSchemes[Math.floor(Math.random() * colorSchemes.length)] + ".css";
             link.type = "text/css";
             link.rel = "stylesheet";
             link.media = "screen,print";
-            document.getElementsByTagName("head")[0].appendChild( link );
+            document.getElementsByTagName("head")[0].appendChild(link);
         </script>
     </head>
     <body>

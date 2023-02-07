@@ -8,15 +8,23 @@
     "name"
     "secret"
     "meta";
-    overflow: hidden;
-    place-items: center;
-    height: 100vh;
+  place-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
 }
 
 .name {
-    place-items: top;
-    grid-area: name;
-    text-align: center;
+  grid-area: name;
+  text-align: center;
+}
+
+.name h1 {
+  margin: 3rem;
+}
+
+.name h2 {
+  margin: 0;
 }
 
 .secret {
@@ -26,7 +34,7 @@
 .meta {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr .6fr 1fr;
   gap: 0px 0px;
   grid-auto-flow: row;
   grid-template-areas:
@@ -36,6 +44,10 @@
     "aoty";
   grid-area: meta;
   place-items: center;
+}
+
+.meta * {
+  margin: .1rem;
 }
 
 .github {
@@ -51,5 +63,5 @@
 }
 
 .email {
-    grid-area: email;
+  grid-area: email;
 }
