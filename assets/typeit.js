@@ -5,9 +5,10 @@ const jobInstance = new TypeIt("#job", {
   cursorChar: cursor,
   speed: 60,
 })
-  .type("bioinformatician & full-stck developer", { delay: 1000 })
+  .type("bioinformatician & full-stack developer", { delay: 1000 })
   .move(-12, { delay: 250 })
-  .type("a", { delay: 300 })
+  .delete(1, { delay: 200 })
+  .type("4", { delay: 300 })
   .options({ speed: 33 })
   .move(null, { to: "end" })
   .go();
