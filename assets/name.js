@@ -13,15 +13,20 @@ document.querySelector("h1").onmouseover = event => {
   clearInterval(interval);
 
   dataValue = event.target.getAttribute('data-value');
+  var score = 0;
 
   for (let i = 0; i < dataValue.length; ++i) {
     const char = dataValue[i];
     if (Math.random() > 0.7) {
+      char === '_' ? null : score++;
       dataValue = setCharAt(dataValue, i, char.toUpperCase());
     } else {
       dataValue = setCharAt(dataValue, i, char.toLowerCase());
     }
   }
+
+  if (score == 0) console.log("That was pretty lucky...")
+  if (score == dataValue.length-1) console.log("That was insanely lucky...")
 
   event.target.setAttribute('data-value', dataValue);
 
