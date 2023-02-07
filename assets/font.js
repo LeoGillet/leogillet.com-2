@@ -2,9 +2,9 @@ var fonts = ['TerminessTTF Nerd Font', 'Space Mono', 'Victor Mono', 'Cascadia Co
 var font = fonts[Math.floor(Math.random() * fonts.length)];
 
 var textEls = document.getElementsByClassName('random-font');
+console.info("Font randomly chosen: "+font);
 
 textEls.forEach(element => {
     element.style.fontFamily = font+", monospace";
-    console.info("Font randomly chosen: "+font);
 });
 
