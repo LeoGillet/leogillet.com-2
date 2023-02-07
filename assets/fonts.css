@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'Victor Mono';
+    src: url("/assets/fonts/VictorMono-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'Victor Mono';
+    src: url("/assets/fonts/VictorMono-Bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url("/assets/fonts/SpaceMono-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url("/assets/fonts/SpaceMono-Bold.ttf") format('ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Monofoki';
+    src: url("/assets/fonts/Monofoki-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Monofoki';
+    src: url("/assets/fonts/Monofoki-Bold.ttf") format('ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url("/assets/fonts/JetBrainsMono-Regular.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url("/assets/fonts/JetBrainsMono-Bold.woff2") format('woff2');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'FantasqueSans Mono';
+    src: url("/assets/fonts/FantasqueSansMono-Regular.woff") format('woff');
+}
+
+@font-face {
+    font-family: 'FantasqueSans Mono';
+    src: url("/assets/fonts/FantasqueSansMono-Bold.woff") format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Cascadia Code';
+    src: url("/assets/fonts/CascadiaCode.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'Iosevka Curly';
+    src: url("/assets/fonts/iosevka-curly-regular.woff2") format('woff2');
+}
+
+@font-face {
+    font-family: 'Iosevka Curly';
+    src: url("/assets/fonts/iosevka-curly-bold.woff2") format('woff2');
+    font-weight: bold;
+}

@@ -1,4 +1,4 @@
-var fonts = ['TerminessTTF Nerd Font', 'Space Mono', 'Victor Mono', 'Cascadia Code', 'Fantasque Sans Mono', 'Iosevka Curly', 'JetBrains Mono', 'Monofoki'];
+var fonts = ['TerminessTTF Nerd Font', 'Space Mono', 'Victor Mono', 'Cascadia Code', 'FantasqueSans Mono', 'Iosevka Curly', 'JetBrains Mono', 'Monofoki'];
 var font = fonts[Math.floor(Math.random() * fonts.length)];
 
 var textEls = document.getElementsByClassName('random-font');

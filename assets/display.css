@@ -1,3 +1,8 @@
+body, html {
+  margin: 0;
+  height: 100vh;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -11,7 +16,7 @@
   place-items: center;
   margin: 0;
   padding: 0;
-  height: 100vh;
+  height: 100%;
 }
 
 .name {
