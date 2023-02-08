@@ -4,6 +4,7 @@
 
 body {
   background: #071404;
+  background: radial-gradient(#0c2407, #071404);
 }
 
 body * {
@@ -14,4 +15,8 @@ body * {
 h4:hover {
   color: #cfd2d0;
   background: #1c4811;
+}
+
+h1, h2, h4 {
+  text-shadow: 0 .2rem 1rem #6cf04c;
 }

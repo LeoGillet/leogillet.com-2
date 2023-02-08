@@ -68,3 +68,8 @@
     src: url("/assets/fonts/iosevka-curly-bold.woff2") format('woff2');
     font-weight: bold;
 }
+
+@font-face {
+    font-family: 'TerminessTTF Nerd Font';
+    src: url("/assets/fonts/TerminessTTF-Regular.ttf") format('ttf');
+}
